@@ -53,7 +53,9 @@ Route::group(['middleware' => 'web'], function () {
     Route::group(['prefix' => 'admin'], function () {
 
         Route::group(['prefix' => 'page'], function () {
-
+            Route::get('/index', 'Admin\PageController@index');
+            Route::get('/login', 'Admin\PageController@login');
+            Route::get('/welcome', 'Admin\PageController@welcome');
         });
 
         Route::group(['prefix' => 'api'], function () {
