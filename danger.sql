@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2018-07-30 08:48:13
+Date: 2018-07-30 17:00:37
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -55,22 +55,10 @@ CREATE TABLE `videos` (
   PRIMARY KEY (`id`),
   KEY `category_id` (`category_id`),
   CONSTRAINT `category_id` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of videos
 -- ----------------------------
-INSERT INTO `videos` VALUES ('1', '第一个测试', '1', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cnxiaosong1234.cnxiaosong1234.cnxiaosong1234.cnxiaosong1234.cnxiaosong1234.cnxiaosong1234.cn', '2018-07-27 10:27:17', '2018-07-27 10:27:17');
-INSERT INTO `videos` VALUES ('2', '第二个测试', '1', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:01', '2018-07-27 10:21:01');
-INSERT INTO `videos` VALUES ('3', '第三个测试', '1', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:02', '2018-07-27 10:21:02');
-INSERT INTO `videos` VALUES ('4', '第四个测试', '1', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:05', '2018-07-27 10:21:05');
-INSERT INTO `videos` VALUES ('5', '第五个测试', '2', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:06', '2018-07-27 10:21:06');
-INSERT INTO `videos` VALUES ('6', '第六个测试', '2', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:07', '2018-07-27 10:21:07');
-INSERT INTO `videos` VALUES ('7', '第七个测试', '2', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:08', '2018-07-27 10:21:08');
-INSERT INTO `videos` VALUES ('8', '第八个测试', '2', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:09', '2018-07-27 10:21:09');
-INSERT INTO `videos` VALUES ('9', '第九个测试', '3', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:10', '2018-07-27 10:21:10');
-INSERT INTO `videos` VALUES ('10', '第十个测试', '3', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '0', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:11', '2018-07-27 10:21:11');
-INSERT INTO `videos` VALUES ('11', '第11个测试', '3', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '1', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:12', '2018-07-27 10:21:12');
-INSERT INTO `videos` VALUES ('12', '第12个测试', '4', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '1', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:12', '2018-07-27 10:21:12');
-INSERT INTO `videos` VALUES ('13', '第13个测试', '4', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '1', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:13', '2018-07-27 10:21:13');
-INSERT INTO `videos` VALUES ('14', '第14个测试', '4', '/asstes/img/Penguins.jpg', '/asstes/img/Desert.jpg', '/asstes/img/Hydrangeas.jpg', '/asstes/img/Jellyfish.jpg', '1', 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg', 'xiaosong1234.cn', '2018-07-27 10:21:13', '2018-07-27 10:21:13');
+INSERT INTO `videos` VALUES ('15', 'ccccc', '1', 'img/RVtSfb8IessoQtSaTIBHALyLdgyDnnX1XyOz2yDt.jpeg', 'img/f13ZsY69gsGe94dULwR1dRwPocWTb9mTWrTO0wDM.jpeg', 'img/lWpxgWdhWFLuypCP5Z3Ncu05GUdJ0sxnnBGf2EGr.jpeg', 'img/iALSq2lyQs19jK3qlMHD4YV9se51pmdmOXbUOBi3.jpeg', '0', 'img/rULJUIokVlw67IVaSAThuDZoMRdbUsXUAlqwKBLN.jpeg', 'https://github.com/githubXiaosong/fitness-room', '2018-07-30 16:52:28', '2018-07-30 16:52:28');
+INSERT INTO `videos` VALUES ('16', 'bbbbbbbbbbbb', '2', 'img/TcTk14EbT9CxwJ6nRGB7UbNFQvDbrswxHv8oVksu.jpeg', 'img/mWXjqvuv9uH0a0GnWX4MHdhmGzUJ8qTALjaCFT0S.jpeg', 'img/2cpv6LUJPrh6reRXZIpWewNLOPHt6x9ysOy7Gm3O.jpeg', 'img/Fdp0vxhjgoJblc8GznDsxEGAOmBaeaCkdfAg9oV3.jpeg', '0', 'img/H6wz2N81vKZkskSd7tuBiG8ssaKD2cYYJdxIShW2.jpeg', 'http://naotu.baidu.com/file/81bbf949f877b4295cf1ca228d652641', '2018-07-30 16:56:49', '2018-07-30 16:56:49');
