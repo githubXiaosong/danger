@@ -10,7 +10,7 @@
 
                 <a href="{{ url('/page/detail/'.$video->id) }}">
                     <div class="thumbnail">
-                        <img src="{{ $video->cover_uri }}"
+                        <img src="{{'/storage/'. $video->cover_uri }}"
                              alt="...">
                         <div class="caption">
                             <h3>{{ $video->title }}</h3>

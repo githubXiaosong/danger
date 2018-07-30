@@ -65,13 +65,21 @@
                 </a>
                 <ul class="sub-menu">
                     <li>
-                        <a _href="{{ url('admin/roomList') }}">
+                        <a _href="{{ url('admin/page/videoList') }}">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>视频</cite>
+                            <cite>视频列表</cite>
+                        </a>
+                    </li>
+                    <li>
+                        <a _href="{{ url('admin/page/videoAdd') }}">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>视频添加</cite>
                         </a>
                     </li>
                 </ul>
             </li>
+
+
 
 
 

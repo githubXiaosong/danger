@@ -56,9 +56,16 @@ Route::group(['middleware' => 'web'], function () {
             Route::get('/index', 'Admin\PageController@index');
             Route::get('/login', 'Admin\PageController@login');
             Route::get('/welcome', 'Admin\PageController@welcome');
+            Route::get('/videoList', 'Admin\PageController@videoList');
+            Route::get('/videoDetail', 'Admin\PageController@videoDetail');
+            Route::get('/videoAdd', 'Admin\PageController@videoAdd');
+
         });
 
         Route::group(['prefix' => 'api'], function () {
+            Route::post('/videoDelete', 'Admin\ApiController@videoDelete');
+            Route::post('/videoUpdate', 'Admin\ApiController@videoUpdate');
+            Route::post('/videoAdd', 'Admin\ApiController@videoAdd');
 
         });
 

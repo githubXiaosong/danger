@@ -21,7 +21,7 @@ class PageController extends Controller
      */
     public function index()
     {
-        $videoList = Video::where(['status' => STATUS_ON_LINE])->orderBy('created_at', 'desc')->get();
+        $videoList = Video::where(['status' => STATUS_ON_LINE])->orderBy('updated_at', 'desc')->get();
 
         return view('index')->with(compact('videoList'));
     }
@@ -57,7 +57,8 @@ class PageController extends Controller
      */
     public function videoList($category_id)
     {
-        $videoList = Video::where(['category_id' => $category_id])
+        $videoList = Video
+            ::where(['category_id' => $category_id, 'status' => STATUS_ON_LINE])
             ->orderBy('created_at', 'desc')
             ->get();
 
@@ -68,7 +69,8 @@ class PageController extends Controller
      * 教程页面
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function tutorial(){
+    public function tutorial()
+    {
         return view('tutorial');
     }
 }

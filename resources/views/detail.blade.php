@@ -10,19 +10,19 @@
     <div class="row">
 
         <div class="thumbnail col-md-6 ">
-            <img src="{{ $video->img1 }}"
+            <img src="{{'/storage/'. $video->img1 }}"
                  alt="...">
         </div>
         <div class="thumbnail col-md-6">
-            <img src="{{ $video->img2 }}"
+            <img src="{{'/storage/'. $video->img2 }}"
                  alt="...">
         </div>
         <div class="thumbnail col-md-6">
-            <img src="{{ $video->img3 }}"
+            <img src="{{'/storage/'. $video->img3 }}"
                  alt="...">
         </div>
         <div class="thumbnail col-md-6">
-            <img src="{{ $video->img4 }}"
+            <img src="{{'/storage/'. $video->img4 }}"
                  alt="...">
         </div>
 
