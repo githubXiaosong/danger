@@ -8,8 +8,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ url('page/index') }}">Brand</a>
-            <span class="navbar-brand" style="font-size: 15px">优质 稳定 清晰的资源服务</span>
+            <a class="navbar-brand" style="font-size: 20px;" href="{{ url('page/index') }}">Brand</a>
+            <span class="navbar-brand" style="font-size: 12px">优质 稳定 清晰的资源服务</span>
 
         </div>
 
