@@ -1,0 +1,33 @@
+// Tab Menu JS Common
+function setTab(a, b, n) {
+	for (i = 1; i <= n; i++) {
+		var c = document.getElementById(a + i);
+		var d = document.getElementById("con_" + a + "_" + i);
+		c.className = i == b ? "active" : "";
+		d.style.display = i == b ? "block" : "none"
+	}
+}
+
+//顶踩次数
+function diggVideo(id,ac){
+	$.ajax({type: 'get',timeout: 5000, url: "/inc/ajax.php?ac=digg&aid="+SiteAid+"&id="+id+"&tab=vod&ac2="+ac ,
+		error: function(){
+			alert('顶踩数据加载失败');
+		},
+		success: function($r){
+			if($r=="haved"){
+				alert('你已经评过分啦');
+			}else{
+				var strs= new Array();
+				strs = $r.split(":");
+				$('#k_play-4a-1').html(strs[0]);
+				$('#k_play-4a-2').html(strs[1]);
+			}
+		}
+	});
+}
+
+//显示播放次数
+function vodnum(id){
+	$.get("/inc/ajax.php?ac=hits&tab=vod&id="+id,function(r){$('#hits').html(r);});
+}

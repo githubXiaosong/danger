@@ -9,24 +9,38 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.css" rel="stylesheet">
+
+    <link href="/copy_lib/style.css" rel="stylesheet" type="text/css">
+
+    <script src="/copy_lib/jquery.min.js.下载"></script>
+
+
     <link href="/css/my.css" rel="stylesheet" type="text/css">
 
 
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.js"></script>
+
+
 
 
 </head>
 <body>
 
+@section('header')
+
 @include('layouts.header')
 
-<div class="container mb-20" >
+@show
+
+<div class=" mb-20" >
     @yield('content')
 </div>
 
+
+@section('footer')
+
 @include('layouts.footer')
+
+@show
 
 </body>
 </html>
