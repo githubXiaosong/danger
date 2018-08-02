@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Video;
 
 class PageController extends Controller
@@ -11,7 +12,9 @@ class PageController extends Controller
      */
     public function test()
     {
-        dd(Video::get());
+
+
+
     }
 
     /**
@@ -21,9 +24,18 @@ class PageController extends Controller
      */
     public function index()
     {
-        $videoList = Video::where(['status' => STATUS_ON_LINE])->orderBy('updated_at', 'desc')->get();
 
-        return view('index')->with(compact('videoList'));
+        $categories = Category::where(['status' => STATUS_ON_LINE])->get();
+
+
+        foreach($categories as $category){
+
+            //todo 获取最新的10条和点赞最好的15条记录挂到 $categories
+        }
+
+
+
+        return view('index')->with(compact('$categories'));
     }
 
     /**

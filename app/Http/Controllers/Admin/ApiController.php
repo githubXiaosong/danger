@@ -78,10 +78,7 @@ class ApiController extends Controller
                 'category_id' => 'exists:categories,id',
                 'cover_uri' => 'required|image',
                 'video_uri' => 'active_url',//可以为空
-                'img1' => 'required|image',
-                'img2' => 'required|image',
-                'img3' => 'required|image',
-                'img4' => 'required|image'
+                'desc' => 'required|string',
 
             ],
             [
@@ -91,27 +88,20 @@ class ApiController extends Controller
         if ($validator->fails())
             return back()->withErrors($validator->messages());
 
+
         $video = new Video();
+
         $video->title = rq('title');
 
         $video->category_id = rq('category_id');
 
         $video->video_uri = rq('video_uri');
 
+        $video->desc  = rq('desc');
+
         $cover_path = $request->cover_uri->store('img', 'public');
         $video->cover_uri = $cover_path;
 
-        $cover_path = $request->img1->store('img', 'public');
-        $video->img1 = $cover_path;
-
-        $cover_path = $request->img2->store('img', 'public');
-        $video->img2 = $cover_path;
-
-        $cover_path = $request->img3->store('img', 'public');
-        $video->img3 = $cover_path;
-
-        $cover_path = $request->img4->store('img', 'public');
-        $video->img4 = $cover_path;
 
         $video->save();
 

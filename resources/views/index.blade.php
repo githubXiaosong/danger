@@ -179,18 +179,6 @@
                             </div>
                         </li>
 
-                        <li class="k_upnew-1d">
-                            <div id="k_upnew-1d-img">
-                                <a class="lz_img" href="http://www.xiaoheju.com/fiml/43920.html" target="_blank"><img
-                                            alt="我不是药神"
-                                            src="/copy_lib/201807011530439211.jpg"
-                                            border="0"><span class="lz_bg"></span><span class="lz_time">HD高清</span></a>
-                            </div>
-                            <div id="k_upnew-1d-title">
-                                <a class="name" href="http://www.xiaoheju.com/fiml/43920.html" target="_blank">我不是药神</a>
-                            </div>
-                            <div id="k_upnew-1d-zy">徐峥 王传君 章宇 谭卓 杨新鸣 周一围 王佳佳 王砚辉 贾晨飞 龚蓓苾 宁浩</div>
-                        </li>
 
                     </ul>
                 </div>

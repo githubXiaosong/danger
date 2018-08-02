@@ -71,7 +71,7 @@
                 <td>{{ $video->category->title }}</td>
                 <td>{{ $video->status }}</td>
                 <td>
-                    <img src="{{ $video->cover_uri }}">
+                    <img src="{{ '/storage/'.$video->cover_uri }}">
                 </td>
                 <td>{{ $video->updated_at }} <a style=" cursor: pointer"
                                                 onclick="submit_as_form('{{url('admin/api/videoUpdate')}}','video_id','{{ $video->id }}');">更新</a>

@@ -83,6 +83,25 @@
             @endif
         </div>
 
+
+        <div class="layui-form-item">
+            <label for="desc" class="layui-form-label">
+                <span class="x-red">*</span>描述
+            </label>
+
+            <div class="layui-input-inline  {{ $errors->has('desc') ? 'error-input' : '' }}">
+                <textarea
+                         name="desc" required="" id="desc"
+                      class="layui-input" value="{{ old('desc') }}" autofocus>
+                    </textarea>
+            </div>
+            @if ($errors->has('desc'))
+                <span class="help-block error-text">
+                    <strong>{{ $errors->first('desc') }}</strong>
+                </span>
+            @endif
+        </div>
+
         <div class="layui-form-item">
             <label for="L_cover" class="layui-form-label">
                 <span class="x-red">*</span>封面图片
@@ -98,71 +117,6 @@
                 </span>
             @endif
         </div>
-
-        <div class="layui-form-item">
-            <label for="L_img1" class="layui-form-label">
-                <span class="x-red">*</span>图片1
-            </label>
-
-            <div class="layui-input-inline  {{ $errors->has('img1') ? 'error-input' : '' }}">
-                <input type="file" name="img1" required="" id="img1"
-                       autocomplete="off" class="layui-input" value="{{ old('img1') }}" autofocus>
-            </div>
-            @if ($errors->has('img1'))
-                <span class="help-block error-text">
-                    <strong>{{ $errors->first('img1') }}</strong>
-                </span>
-            @endif
-        </div>
-
-        <div class="layui-form-item">
-            <label for="L_img2" class="layui-form-label">
-                <span class="x-red">*</span>图片2
-            </label>
-
-            <div class="layui-input-inline  {{ $errors->has('img2') ? 'error-input' : '' }}">
-                <input type="file" name="img2" required="" id="img2"
-                       autocomplete="off" class="layui-input" value="{{ old('img2') }}" autofocus>
-            </div>
-            @if ($errors->has('img2'))
-                <span class="help-block error-text">
-                    <strong>{{ $errors->first('img2') }}</strong>
-                </span>
-            @endif
-        </div>
-
-        <div class="layui-form-item">
-            <label for="L_img3" class="layui-form-label">
-                <span class="x-red">*</span>图片3
-            </label>
-
-            <div class="layui-input-inline  {{ $errors->has('img3') ? 'error-input' : '' }}">
-                <input type="file" name="img3" required="" id="img3"
-                       autocomplete="off" class="layui-input" value="{{ old('img3') }}" autofocus>
-            </div>
-            @if ($errors->has('img3'))
-                <span class="help-block error-text">
-                    <strong>{{ $errors->first('img3') }}</strong>
-                </span>
-            @endif
-        </div>
-
-        <div class="layui-form-item">
-            <label for="L_img4" class="layui-form-label">
-                <span class="x-red">*</span>图片4
-            </label>
-
-            <div class="layui-input-inline  {{ $errors->has('img4') ? 'error-input' : '' }}">
-                <input type="file" name="img4" required="" id="img4"
-                       autocomplete="off" class="layui-input" value="{{ old('img4') }}" autofocus>
-            </div>
-            @if ($errors->has('img4'))
-                <span class="help-block error-text">
-                    <strong>{{ $errors->first('img4') }}</strong>
-                </span>
-            @endif
-        </div>
-
 
         <div class="layui-form-item">
             <label for="L_repass" class="layui-form-label">
