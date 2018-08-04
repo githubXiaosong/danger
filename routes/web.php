@@ -46,7 +46,8 @@ Route::group(['middleware' => 'web'], function () {
     });
 
     Route::group(['prefix' => 'api'], function () {
-
+        Route::get('getCategoryList', 'ApiController@getCategoryList');
+        Route::get('getTopList', 'ApiController@getTopList');
     });
 
 

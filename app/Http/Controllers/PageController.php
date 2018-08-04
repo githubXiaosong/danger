@@ -14,7 +14,6 @@ class PageController extends Controller
     {
 
 
-
     }
 
     /**
@@ -25,17 +24,22 @@ class PageController extends Controller
     public function index()
     {
 
+        // 获取最新的10条和点赞最好的15条记录挂到 $categories
         $categories = Category::where(['status' => STATUS_ON_LINE])->get();
 
+        foreach ($categories as $category) {
+            $newList = Video::where(['category_id' => $category->id])
+                ->latest('updated_at')->take(10)->get();
 
-        foreach($categories as $category){
+            $popList = Video::where(['category_id' => $category->id])
+                ->orderBy('pop_num', 'desc')->take(14)->get();
 
-            //todo 获取最新的10条和点赞最好的15条记录挂到 $categories
+            $category['newList'] = $newList;
+            $category['popList'] = $popList;
+
         }
 
-
-
-        return view('index')->with(compact('$categories'));
+        return view('index')->with(compact('categories'));
     }
 
     /**
@@ -69,12 +73,18 @@ class PageController extends Controller
      */
     public function videoList($category_id)
     {
+        $category = Category::find($category_id);
+
         $videoList = Video
             ::where(['category_id' => $category_id, 'status' => STATUS_ON_LINE])
-            ->orderBy('created_at', 'desc')
-            ->get();
+            ->latest('updated_at')
+            ->paginate(10);
 
-        return view('video-list', compact('videoList'));
+        $popList = Video::where(['category_id' => $category_id])
+            ->orderBy('pop_num', 'desc')->take(14)->get();
+
+
+        return view('video-list')->with(['videoList'=>$videoList,'popList'=>$popList,'category'=>$category]);
     }
 
     /**
