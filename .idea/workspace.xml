@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25e2f4fd-dbaa-49d4-b7d3-2ba75f0ce1d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/storage/img/201610011475310373.jpg" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\3gqUdSKl5DBzWUtvDTtQ6sI51GaKeqxMqP1mnCiH.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\5TdsRyR4xW6cJ6g3Fkt5VG5pOmGaO5tdHPM069wE.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\6ZsDv8DRqA05lyq7kME3bAYxYnLzUqIP3QSYswO2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\BziymMn7djKibW9pa4u8jcb8aEL6z897jjgsniSQ.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\D9wLAOZjZZujaxnmd2OCKYKzNKI5foGgErk9J33K.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\GzYEznjMXIumzT1NL8A6ocWXyh6bWVluzVJiLpWX.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\JOu39g3EDAbSA9NPrNfq52QyzkmdJ4zORGPWGkQe.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\JkhgY1cbgn0TipBdeSEE17NqHFogYxlWX4WdfOcg.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\K8kIdDoNLwQgwluoT14EOwDfekuPwKJNq9L3UKVF.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\NK8n3NvB8EvTBvzfbxc6MGhP3ZrYTNPC5uQQ7zZr.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\ReDK15WfZybAeZCIMj3KHnUzVb4f7fwiZauUgJkC.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\X00evS8nCAMhC3YLT0aMfHprGUEKkCSSNQJvYgcE.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\anhn0C9rwnvWD3RhhjbeGMMcKnf0WjhFRSLBiymo.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\kaQpkcMQmfpr94277BcRor1eQf4ZZ0mXTsZ7GoQS.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\x8SCthO35kGj5FiEsKroGG3oRJHr9MUUBKJFJ6Ru.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="E:\SoftWare\WEB\xmapp\htdocs\danger\public\storage\img\yNLKTXjvjQPlSgHeerg6vIKXxtuyVizXgAiPwByP.jpeg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/detail.blade.php" afterPath="$PROJECT_DIR$/resources/views/detail.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/video-list.blade.php" afterPath="$PROJECT_DIR$/resources/views/video-list.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/play.blade.php" afterPath="$PROJECT_DIR$/resources/views/play.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -53,10 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="play.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/play.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.5449438" vertical-offset="528" max-vertical-offset="1430">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PageController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="30.516129" vertical-offset="1056" max-vertical-offset="2288">
+            <state vertical-scroll-proportion="28.387096" vertical-offset="990" max-vertical-offset="2288">
               <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
@@ -128,26 +113,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video-add.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="video-add.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/video-add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4558304" vertical-offset="2162" max-vertical-offset="3190">
-              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+            <state vertical-scroll-proportion="-41.677418" vertical-offset="1172" max-vertical-offset="3190">
+              <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.258064" vertical-offset="0" max-vertical-offset="2992">
-              <caret line="68" column="78" selection-start-line="68" selection-start-column="78" selection-end-line="68" selection-end-column="78" />
-              <folding>
-                <element signature="e#832#857#0#HTML" expanded="true" />
-                <element signature="e#1310#1330#0#HTML" expanded="true" />
-                <element signature="e#3532#3552#0#HTML" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-14.0" vertical-offset="182" max-vertical-offset="880">
+              <caret line="28" column="27" selection-start-line="24" selection-start-column="14" selection-end-line="28" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,23 +136,9 @@
       <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="1166">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.32258" vertical-offset="336" max-vertical-offset="1166">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video-list.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/video-list.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.918033" vertical-offset="504" max-vertical-offset="2244">
-              <caret line="31" column="125" selection-start-line="31" selection-start-column="122" selection-end-line="31" selection-end-column="125" />
-              <folding>
-                <element signature="e#2327#2378#0#HTML" expanded="true" />
-                <element signature="e#3322#3373#0#HTML" expanded="true" />
-                <element signature="e#3576#3627#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -224,7 +191,6 @@
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/public/免费视频在线观看_伦理片_伦理电影_神马电影_小河居电影网_files/tj.js.下载" />
         <option value="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/play.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/admin/video-list.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
@@ -238,6 +204,7 @@
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ApiController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/video-add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/play.blade.php" />
       </list>
     </option>
   </component>
@@ -552,6 +519,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asstes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asstes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -699,7 +706,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -707,9 +714,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21482602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21482602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286385" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -865,14 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/play.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="836">
@@ -947,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.7419355" vertical-offset="248" max-vertical-offset="880">
-          <caret line="6" column="88" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/video-list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.918033" vertical-offset="504" max-vertical-offset="2244">
@@ -964,14 +955,6 @@
             <element signature="e#3322#3373#0#HTML" expanded="true" />
             <element signature="e#3576#3627#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="1166">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -987,45 +970,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/detail.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/video-add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.903226" vertical-offset="1568" max-vertical-offset="2992">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-          <folding>
-            <element signature="e#841#863#0#HTML" expanded="true" />
-            <element signature="e#924#946#0#HTML" expanded="true" />
-            <element signature="e#1007#1029#0#HTML" expanded="true" />
-            <element signature="e#1090#1112#0#HTML" expanded="true" />
-            <element signature="e#1173#1195#0#HTML" expanded="true" />
-            <element signature="e#1256#1278#0#HTML" expanded="true" />
-            <element signature="e#1321#1353#0#HTML" expanded="true" />
-            <element signature="e#4454#4493#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="30.516129" vertical-offset="1056" max-vertical-offset="2288">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="528">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state vertical-scroll-proportion="-41.677418" vertical-offset="1172" max-vertical-offset="3190">
+          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Video.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.677419" vertical-offset="0" max-vertical-offset="396">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="28" />
+        <state vertical-scroll-proportion="-8.32258" vertical-offset="336" max-vertical-offset="1166">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0" vertical-offset="182" max-vertical-offset="880">
+          <caret line="28" column="27" selection-start-line="24" selection-start-column="14" selection-end-line="28" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1050,10 +1014,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/video-add.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4558304" vertical-offset="2162" max-vertical-offset="3190">
-          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+        <state vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="528">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.903226" vertical-offset="1568" max-vertical-offset="2992">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+          <folding>
+            <element signature="e#841#863#0#HTML" expanded="true" />
+            <element signature="e#924#946#0#HTML" expanded="true" />
+            <element signature="e#1007#1029#0#HTML" expanded="true" />
+            <element signature="e#1090#1112#0#HTML" expanded="true" />
+            <element signature="e#1173#1195#0#HTML" expanded="true" />
+            <element signature="e#1256#1278#0#HTML" expanded="true" />
+            <element signature="e#1321#1353#0#HTML" expanded="true" />
+            <element signature="e#4454#4493#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.677419" vertical-offset="0" max-vertical-offset="396">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.387096" vertical-offset="990" max-vertical-offset="2288">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/play.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5449438" vertical-offset="528" max-vertical-offset="1430">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
           <folding />
         </state>
       </provider>
