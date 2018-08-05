@@ -10,7 +10,7 @@
                 <li class="headp-1-l"></li>
                 <li class="head-2a-list"><a target="_blank" href="{{ url('page/index') }}/">首页</a></li>
 
-                @foreach( json_decode(file_get_contents("http://127.0.0.1/api/getCategoryList"),true) as $item)
+                @foreach( json_decode(file_get_contents(url('api/getCategoryList')),true) as $item)
                     <li class="head-2a-list ">
                         <a href="{{ url('page/videoList/'.$item['id']) }}">{{ $item['title'] }}</a>
                     </li>
