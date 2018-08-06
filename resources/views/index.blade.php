@@ -3,23 +3,8 @@
 
 @section('content')
 
-    <!DOCTYPE html>
-    <!-- saved from url=(0024)http://www.xiaoheju.com/ -->
-    <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-        <meta name="viewport"
-              content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="pageurl" content="http://www.xiaoheju.com">
-        <title>免费视频在线观看_伦理片_伦理电影_神马电影_小河居电影网</title>
-        <meta name="keywords" content="good在线观看，伦理片，神马影院，好看的电影，2017最新电影，小河居电影网">
-        <meta name="description" content="小河居最干净的免费电影网,给你更方便的视频门户网站体验,让我们一起畅享高清无广告最新电影电视剧">
 
 
-    </head>
-    <body>
 
     <div class="main">
         <div class="k_newgg" style="text-align: left;">小河居电影网提供最新首发电影大片、全集电视剧、综艺及动漫等影片在线观看，请用记住我们的网址 www.xiaoheju.com
@@ -124,8 +109,7 @@
         </div>
 
 
-    </body>
-    </html>
+
 
 
 @endsection

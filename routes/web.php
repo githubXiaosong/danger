@@ -50,6 +50,15 @@ Route::group(['middleware' => 'web'], function () {
         Route::get('getTopList', 'ApiController@getTopList');
     });
 
+    Route::group(['prefix' => 'm'], function () {
+        Route::group(['prefix' => 'page'], function () {
+            Route::get('index', 'M\PageController@index');
+        });
+
+        Route::group(['prefix' => 'api'], function () {
+
+        });
+    });
 
     Route::group(['prefix' => 'admin'], function () {
 

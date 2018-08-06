@@ -17,8 +17,6 @@
                 @endforeach
 
 
-
-
             </ul>
         </div>
     </div>
@@ -35,8 +33,9 @@
             <div class="ad-960">
                 <!-- 广告位：P1(960x90) -->
             </div>
-            <div id="a1"></div>
-
+            <center>
+                <div id="a1" class="mb-30"></div>
+            </center>
 
         </div>
     </div>
