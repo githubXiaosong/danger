@@ -19,13 +19,6 @@
     <link href="/css/my.css" rel="stylesheet" type="text/css">
 
 
-    <link rel="stylesheet" href="/lib/bootstrap.css" type="text/css" />
-
-    <!-- Add venobox -->
-
-    <link rel="stylesheet" href="/lib/venobox/venobox.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="/lib/venobox/venobox.min.js"></script>
-
     <script type="text/javascript">
         // 跳转手机页面
         if (!!navigator.userAgent.match(/AppleWebKit.*Mobile.*/)) {
